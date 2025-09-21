@@ -104,18 +104,6 @@ ul#nav-list a:hover{
   padding: 15px 0;
 }
 
-#side-area {
-  width: 50%;
-  float: right;
-  background: url(../image/bg-area-lateral.png) top left repeat-x;
-  padding: 20px 0;
-}
-
-.content {
-  margin: 0 auto;
-  width: 90%;
-}
-
 h2 {
   color: #7d7640;
   font-size: 1.1em;
@@ -125,7 +113,45 @@ h2 {
 p {
   font-size: 1em;
   margin-bottom: 10px;
+}
 
+#side-area {
+  width: 50%;
+  float: right;
+  background: url(../image/bg-area-lateral.png) top left repeat-x;
+  padding: 20px 0;
+}
+
+#benefits li {
+  height: 6em;
+  border-bottom: 1px solid #f3efcb;
+  padding: 8px;
+}
+
+#benefits li a img {
+  float: left;
+  margin-right: 8px;
+}
+
+#benefits li a h3 {
+  font-size: 1em;
+  color: #615b2d;
+  padding: 5px 0;
+  background: url(../image/ornamento.png) no-repeat center right;
+}
+
+#benefits li a p {
+  font-size: 0.8em;
+}
+
+#benefits li:hover {
+  background: #f6f3d6;
+  cursor: pointer;
+}
+
+.content {
+  margin: 0 auto;
+  width: 90%;
 }
 
 footer {
