@@ -125,5 +125,15 @@ h2 {
 p {
   font-size: 1em;
   margin-bottom: 10px;
-  
+
+}
+
+footer {
+  min-width: 740px;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 16px;
+  background: #fff url(../image/bg-rodape.png) repeat-x top;
+  color: #7d7640;
+  text-align: center;
 }
