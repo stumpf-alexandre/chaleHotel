@@ -70,3 +70,29 @@ a.reserve {
   padding: 5px 10px;
   float: right;
 }
+
+#vertical-nav {
+  margin-top: 15px;
+}
+
+ul#nav-list {
+  float: left;
+}
+
+ul#nav-list a {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  padding: 5px;
+  color: #6e672c;
+  line-height: 30px;
+}
+
+ul#nav-list a:hover{
+  background: #fdf6be;
+}
+
+.testimony {
+  width: 226px;
+  height: 164px;
+  float: right;
+}
